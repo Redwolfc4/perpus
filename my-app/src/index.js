@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 // import App from './App'
 import App from './App_copy'
+import Db from './firebase'
 import reportWebVitals from './reportWebVitals'
+
+console.log(Db)
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
